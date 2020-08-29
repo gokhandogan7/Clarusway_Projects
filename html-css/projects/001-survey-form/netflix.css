@@ -64,6 +64,9 @@ body {
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    transform-origin: center;
+    transform: scaleX(89.2) rotateY(88.9deg);
+    letter-spacing: -2px;
 }
 
 span {
