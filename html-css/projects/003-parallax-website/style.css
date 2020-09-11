@@ -9,6 +9,20 @@ html {
     color: #444444;
 }
 
+.istanbul,
+.dubai,
+.macedonia,
+.greece,
+.mykonos,
+.germany {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .istanbul {
     background-image: url("./img/istanbul.jpg");
     min-height: 100%;
@@ -17,25 +31,25 @@ html {
 
 .dubai {
     background-image: url("./img/dubai.jpg");
-    min-height: 670px;
+    min-height: 600px;
     width: auto;
 }
 
 .macedonia {
     background-image: url("./img/macedonia.jpg");
-    min-height: 650px;
+    min-height: 600px;
     width: auto;
 }
 
 .greece {
     background-image: url("./img/athena.jpg");
-    min-height: 650px;
+    min-height: 600px;
     width: auto;
 }
 
 .mykonos {
     background-image: url("./img/mykonos.jpg");
-    min-height: 650px;
+    min-height: 600px;
     width: auto;
 }
 
@@ -43,4 +57,45 @@ html {
     background-image: url("./img/berlin.jpg");
     min-height: 100%;
     width: auto;
+}
+
+.section {
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.section_light {
+    background-color: #f1f1f1;
+    color: #666666;
+}
+
+.section_dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ist_text,
+.dubai_text,
+.mace_text,
+.greece_text,
+.mykonos_text,
+.germany_text {
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.title {
+    background-color: rgba(60, 60, 60, 0.8);
+    padding: 10px;
+}
+
+.journey,
+.macedon,
+.mykon {
+    color: #ddd;
 }
