@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Kufam', cursive;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #444444;
+}
+
+.istanbul {
+    background-image: url("./img/istanbul.jpg");
+    min-height: 100%;
+    width: auto;
+}
+
+.dubai {
+    background-image: url("./img/dubai.jpg");
+    min-height: 670px;
+    width: auto;
+}
+
+.macedonia {
+    background-image: url("./img/macedonia.jpg");
+    min-height: 650px;
+    width: auto;
+}
+
+.greece {
+    background-image: url("./img/athena.jpg");
+    min-height: 650px;
+    width: auto;
+}
+
+.mykonos {
+    background-image: url("./img/mykonos.jpg");
+    min-height: 650px;
+    width: auto;
+}
+
+.germany {
+    background-image: url("./img/berlin.jpg");
+    min-height: 100%;
+    width: auto;
+}
